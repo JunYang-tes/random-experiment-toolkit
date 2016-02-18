@@ -25,24 +25,24 @@ $./run -m ThrowCoin
 ```
 The output of program looks like:
 >Exp count:5000
-    Event  fired:2551 times
-    Frequence of event is:0.5102
-    P:0.5
-    Absolute error is:0.0102
-    Time consumption :0:00:00.015120M
+>Event  fired:2551 times
+>Frequence of event is:0.5102
+>P:0.5
+>Absolute error is:0.0102
+>Time consumption :0:00:00.015120M
     
 using `./run --help` for more detail.
 >usage: observer.py [-h] -m MODULE [-c CLASS] [-t TIMES] [--type TYPE] [--arg ARG]
-optional arguments:
-  -h, --help            show this help message and exit
-  -m MODULE, --module MODULE
+>optional arguments:
+>-h, --help            show this help message and exit
+>-m MODULE, --module MODULE
                         module's name (file name without .py)
-  -c CLASS, --class CLASS
+>-c CLASS, --class CLASS
                         class in module
-  -t TIMES, --times TIMES
+>-t TIMES, --times TIMES
                         experiment count,default value is 1000
-  --type TYPE           experiment type,it can be frq or MV or method anme
-  --arg ARG             arguments will be passed to constructor,wraped by 
+>--type TYPE           experiment type,it can be frq or MV or method anme
+>--arg ARG             arguments will be passed to constructor,wraped by 
   
   *Note*
   You can using `-c CLASS` to specify a class which should be subclass of RE to run
